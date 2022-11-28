@@ -44,7 +44,7 @@ createButton();
 function createButton() {
   const button = document.createElement("button");
   const body = document.querySelector("body");
-  button.innerText = "Enter grid number";
+  button.innerText = "Enter Grid Number";
   button.classList.add("btn");
   body.insertBefore(button, container);
   button.addEventListener("click", function () {
