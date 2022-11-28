@@ -4,6 +4,7 @@ body {
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  background-color: #102027;
 }
 
 .container {
@@ -19,14 +20,14 @@ body {
 }
 
 .grid {
-  border: 1px solid #000;
+  border: 1px solid #fff;
   width: 25px;
   height: 25px;
   box-sizing: border-box;
 }
 
 .hover {
-  background-color: red;
+  background-color: #00c853;
 }
 
 .btn {
